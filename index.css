@@ -1,0 +1,6 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{@apply bg-night text-parch font-serif;background-image:radial-gradient(circle at 20% 0%,#2a1d14 0,#14110f 60%)}
+.card{@apply rounded-lg border border-gold/30 bg-wood/80 p-4 shadow-lg}
+.btn{@apply rounded border border-gold/60 bg-wine px-3 py-1.5 text-sm text-parch hover:bg-wine/70 disabled:opacity-40}
+.inp{@apply w-full rounded border border-gold/30 bg-night px-2 py-1.5 text-parch outline-none focus:border-gold}
+h2,h3{@apply text-gold}
